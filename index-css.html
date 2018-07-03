@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>Test - Full Height Page</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		body {
+			display: flex;
+		}
+
+		.left, .right {
+			flex: 1;
+		}
+
+		.left {
+			background: orange;
+		}
+
+		.right {
+			background: cyan;
+		}
+	</style>
+
+</head>
+<body>
+	<!-- https://stackoverflow.com/questions/1575141/how-to-make-a-div-100-height-of-the-browser-window -->
+	<div class="left">Left Column</div>
+	<div class="right">Right Column</div>
+</body>
+</html>
+
